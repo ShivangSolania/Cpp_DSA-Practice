@@ -3,7 +3,7 @@
 using namespace std;
 
 int singleNumber() {
-    vector<int> &vec = {4,1,2,1,2};
+    vector<int> vec = {4,1,2,1,2};
     int a=0;
     for (int i : vec) {
         a = a^i;
